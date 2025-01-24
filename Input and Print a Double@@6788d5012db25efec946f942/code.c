@@ -3,8 +3,8 @@
 
 
 int main() {
-    float a;
-    scanf("%f",&a);
+    double a;
+    scanf("%ld",&a);
     printf("You entered: %ld",a);
     return 0;
 }

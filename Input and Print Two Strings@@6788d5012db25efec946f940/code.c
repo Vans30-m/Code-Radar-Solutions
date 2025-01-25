@@ -4,9 +4,9 @@
 
 int main() {
     char str[100];
-    char str[100];
+    char str1[100];
     scanf("%[^\n]%*c",&str);
-    scanf("%[^\n]%*c",&str);
+    scanf("%[^\n]%*c",&str1);
     printf("You entered: %s and %s",a,b);
     return 0;
 }

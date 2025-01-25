@@ -2,8 +2,8 @@
 
 
 int main() {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    printf("%d",a<<2);
+    unsigned int a,b;
+    scanf("%u %u",&a,&b);
+    printf("%u",a<<2);
     return 0;
 }

@@ -5,7 +5,6 @@
 int main() {
     float a;
     scanf("%f",&a);
-    double a==b;
-    printf("You entered: %ld",b);
+    printf("You entered: %ld",a);
     return 0;
 }

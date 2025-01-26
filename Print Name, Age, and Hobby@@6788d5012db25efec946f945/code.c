@@ -4,7 +4,7 @@
 
 int main() {
     char str[100];
-    scanf("%[^\n]%*c",&str);
+    scanf("%s",str);
     printf("Name: %s",str);
 
     int age;
@@ -12,7 +12,7 @@ int main() {
     printf("Age: %d\n",age);
 
     char st[100];
-    scanf("%[^\n]%*c",&st);
+    scanf("%s",st);
     printf("Hobby: %s",st);
     return 0;
 }

@@ -5,7 +5,7 @@
 int main() {
     int a,b,c;
     scanf("%D %d %d",&a,&b,&c);
-    if (a==b==c){
+    if (a==b && b==c && c==a){
         printf("Equilateral");
     }
     else if (a==b && b!=c && c!=a){

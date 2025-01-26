@@ -4,15 +4,15 @@
 
 int main() {
     char str[100];
-    scanf("%c",&str);
-    printf("Name: %[^\n]%*c\n",str);
+    scanf("%[^\n]%*c",&str);
+    printf("Name: %s",str);
 
     int age;
     scanf("%d",&age);
     printf("Age: %d\n",age);
 
-    char s[100];
-    scanf("%c",&s);
-    printf("Hobby: %[^\n]%*c",s);
+    char st[100];
+    scanf("%[^\n]%*c",&st);
+    printf("Hobby: %s",st);
     return 0;
 }

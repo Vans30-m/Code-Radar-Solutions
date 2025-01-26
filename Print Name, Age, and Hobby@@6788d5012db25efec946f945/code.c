@@ -5,7 +5,7 @@
 int main() {
     char str[100];
     scanf("%s",str);
-    printf("Name: %s",str);
+    printf("Name: %s\n",str);
 
     int age;
     scanf("%d",&age);

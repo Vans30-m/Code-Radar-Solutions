@@ -2,8 +2,8 @@
 
 
 int main() {
-    char str[100];
-    scanf("%s",&str);
+    char str;
+    scanf("%c",&str);
     if (str=="A"){
         printf("Excellent");
     }

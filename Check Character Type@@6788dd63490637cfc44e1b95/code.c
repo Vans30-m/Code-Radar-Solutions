@@ -4,7 +4,7 @@
 
 int main() {
     char str;
-    scanf("%",&str);
+    scanf("%c",&str);
 
     if(str>='a' && str<='z'){
         if (str=='a' || str=='e' || str=='i' || str=='o' || str=='u'){

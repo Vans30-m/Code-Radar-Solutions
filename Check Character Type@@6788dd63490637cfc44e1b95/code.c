@@ -3,8 +3,8 @@
 
 
 int main() {
-    char str[12];
-    scanf("%s",&str);
+    char str;
+    scanf("%c",&str);
     int a;
     scanf("%d",&a);
     if(str>='a' && str<='z'){

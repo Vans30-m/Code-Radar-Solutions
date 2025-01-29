@@ -5,32 +5,33 @@
 int main() {
     int Day;
     scanf("%d",&Day);
+    
     if Day==1{
-    printf("Monday");
+        printf("Monday");
     }
         
     else if Day==2{
-    printf("Tuesday");
+        printf("Tuesday");
     }
         
     else if Day==3{
-    printf("Wednesday");
+        printf("Wednesday");
     }
         
     else if Day==4{
-    printf("Thursday");
+        printf("Thursday");
     }
         
     else if Day==5{
-    printf("Friday");
+        printf("Friday");
     }
         
     else if Day==6{
-    printf("Saturday");
+        printf("Saturday");
     }
         
     else if Day==7{
-    printf("Sunday");
+        printf("Sunday");
     }
     else{
         printf("Invalid");

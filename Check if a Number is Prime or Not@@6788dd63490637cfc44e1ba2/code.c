@@ -3,9 +3,9 @@
 
 
 int main() {
-    int a,n;
-    scanf("%d %d",&a,&n);
-    if (a>=1 && a%n==0){
+    int a;
+    scanf("%d",&a);
+    if (a>=1 && a%2==0 || a%3==0){
         printf("Not Prime");
     }
     else if (a>=1){

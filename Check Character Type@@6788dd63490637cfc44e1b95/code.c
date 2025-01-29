@@ -9,8 +9,7 @@ int main() {
     if(str>='a' && str<='z' ){
         if (str=='a' || str=='e' || str=='i' || str=='o' || str=='u'){
             printf("Vowel");
-        }
-        else{
+        }else{
             printf("Consonant");
         }
     }   

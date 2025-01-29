@@ -5,35 +5,35 @@
 int main() {
     int Day;
     scanf("%d",&Day);
-    switch(Day){
-        case 1:
-            printf("Monday");
-            break;
+    if Day==1{
+    printf("Monday");
+    }
         
-        case 2:
-            printf("Tuesday");
-            break;
+    else if Day==2{
+    printf("Tuesday");
+    }
         
-        case 3:
-            printf("Wednesday");
-            break;
+    else if Day==3{
+    printf("Wednesday");
+    }
         
-        case 4:
-            printf("Thursday");
-            break;
+    else if Day==4{
+    printf("Thursday");
+    }
         
-        case 5:
-            printf("Friday");
-            break;
+    else if Day==5{
+    printf("Friday");
+    }
         
-        case 6:
-            printf("Saturday");
-            break;
+    else if Day==6{
+    printf("Saturday");
+    }
         
-        case 7:
-            printf("Sunday");
-            break;
-        }
-    
+    else if Day==7{
+    printf("Sunday");
+    }
+    else{
+        printf("Invalid");
+    }
     return 0;
 }

@@ -9,19 +9,18 @@ int main() {
     scanf("%c",&str);
 
     switch(str){
-        case '+':
+        case str=='+':
         printf("%d",a+b);
         break;
-        case '-':
+        case str=='-':
         printf("%d",a-b);
         break;
-        case '/':
+        case str=='/':
         printf("%d",a/b);
         break;
-        case '*':
+        case str=='*':
         printf("%d",a*b);
         break;
-        
     }
     return 0;
 }

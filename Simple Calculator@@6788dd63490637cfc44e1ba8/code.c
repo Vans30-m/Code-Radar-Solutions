@@ -8,11 +8,20 @@ int main() {
     scanf("%a %b",&a,&b);
     scanf("%c",&str);
 
-    if (str=='+'){
+    switch(str){
+        case '+':
         printf("%d",a+b);
-    }
-    else{
-        printf("Error");
+        break;
+        case '-':
+        printf("%d",a-b);
+        break;
+        case '/':
+        printf("%d",a/b);
+        break;
+        case '*':
+        printf("%d",a*b);
+        break;
+        
     }
     return 0;
 }

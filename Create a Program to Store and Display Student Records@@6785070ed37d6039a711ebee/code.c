@@ -2,7 +2,7 @@
 int main() {
     int num;
     scanf("%d",&num);
-    for (int a=1; a>num;a++){
+    for (int a=1; a<=num;a++){
         int x;
         scanf("%d",&x);
         printf("Roll Number: %d, ",x);

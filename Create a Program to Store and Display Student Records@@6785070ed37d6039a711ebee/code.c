@@ -11,7 +11,7 @@ int main() {
         printf("Name: %s, ",name);
         float number;
         scanf("%f",&number);
-        printf("Marks: %0.2f",number);    
+        printf("Marks: %0.2f\n",number);    
     }
     return 0;
 }

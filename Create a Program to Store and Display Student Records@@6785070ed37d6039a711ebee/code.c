@@ -5,14 +5,14 @@
 int main() {
     int num;
     scanf("%d",&num);
-    for (int a; a<=num;a++){
-        printf("Roll Number: %d",a);
+    for (int a=1; a<=num;a++){
+        printf("Roll Number: %d\n",a);
+        char name[100];
+        scanf("%s",&name);
+        printf("Name: %s\n",name);
+        float number;
+        scanf("%f",&number);
+        printf("Marks: %0.2f",number);    
     }
-    char name;
-    scanf("%c",&name);
-    printf("Name: %c",name);
-    float number;
-    scanf("%f",&number);
-    printf("Marks: %f",number);
     return 0;
 }

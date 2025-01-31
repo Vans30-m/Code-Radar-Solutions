@@ -9,14 +9,8 @@ int main() {
         scanf("%s",name);
         float marks;
         scanf("%f",&marks);
-        // if (marks>=50){
-        //     printf("All Passed");
-        // }
-        // else{
-        //     printf("Not All Passed");
-        // }
     }
-    if (marks>=50){
+    if (student[num].marks>=50){
         printf("All Passed");
     }
     else{

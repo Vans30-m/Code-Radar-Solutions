@@ -2,7 +2,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    for (int num=1;a<=num;num++){
+    for (int num=1;num<=a;num++){
         int roll;
         scanf("%d",&roll);
         char name[100];

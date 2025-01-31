@@ -9,7 +9,7 @@ int main() {
         char name[100];
         scanf("%s",name);
         float n;
-        scanf("%0.2f",&n);
+        scanf("%f",&n);
         total_marks+=n;
     }
     printf("Average: %0.2f",total_marks/x);

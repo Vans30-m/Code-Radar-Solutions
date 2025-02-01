@@ -9,15 +9,14 @@ int main() {
     scanf("%c",&str);
     if(str='+'){
         printf("%d",a+b);
-        break;
     }
-    else if (str='-'){
+    else if(str='-'){
         printf("%d",a-b);
     }
-    else if (str='/'){
+    else if(str='/'){
         printf("%d",a/b);
     }
-    else if (str='*'){
+    else if(str='*'){
         printf("%d",a*b);
     }
     else{

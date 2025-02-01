@@ -2,14 +2,14 @@
 int main() {
     int N;
     scanf("%d",&N);
-
+    float price=1.00;
     for (int x;x<=N;x++){
         char book[100];
         scanf("%s",&book);
         char author[100];
         scanf("%s",&author);
-        int price;
-        scanf("%d",&price);
+        float price;
+        scanf("%0.2f",&price);
         int threshold;
         scanf("%d",&threshold);
         if (price>threshold){

@@ -4,10 +4,10 @@
 
 int main() {
     char str;
-    scanf("%c",&str);
     int a,b;
     scanf("%d %d",&a,&b);
-
+    // char str;
+    scanf("%c",&str);
     if(str='+'){
         printf("%d",a+b);
     }

@@ -12,7 +12,7 @@ int main() {
         scanf("%d",&threshold);
         if (price>threshold){
             printf("Books above price %0.2f:",threshold);
-            printf("Title: %c, Author: %c, Price:%0.2f",book,author,price);
+            printf("Title: %c, Author: %c, Price:%0.2f\n",book,author,price);
         }
         else{
             printf("HI");

@@ -4,9 +4,9 @@
 
 int main() {
     int a,b;
-    char str[100];
+    char str;
     scanf("%d %d",&a,&b);
-    scanf("%s",&str);
+    scanf("%c",&str);
     if(str=='+'){
         printf("%d",a+b);
     }

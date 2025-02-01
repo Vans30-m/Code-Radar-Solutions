@@ -8,7 +8,7 @@ int main() {
     int a,b;
     scanf("%d %d",&a,&b);
     printf("Area = %0.2f\n",a*b);
-    printf("Perimeter = %0.2f",2*(a+b));
+    printf("Perimeter = %0.2f\n",2*(a+b));
    }
     return 0;
 }

@@ -12,7 +12,7 @@ int main() {
     if(str=='+'){
         printf("%d",a+b);
     }
-    else if(str=='-'){
+    else if(str='-'){
         printf("%d",a-b);
     }
     else if(str=='/'){

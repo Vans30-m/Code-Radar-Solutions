@@ -3,10 +3,11 @@
 
 
 int main() {
-    int a,b;
-    scanf("%d %d",&a,&b);
     char str;
     scanf("%c",&str);
+    int a,b;
+    scanf("%d %d",&a,&b);
+
     if(str='+'){
         printf("%d",a+b);
     }

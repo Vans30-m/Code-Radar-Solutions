@@ -8,16 +8,16 @@ int main() {
     scanf("%d %d",&a,&b);
     // char str;
     scanf("%c",&str);
-    if(str='+'){
+    if(str=='+'){
         printf("%d",a+b);
     }
-    else if(str='-'){
+    else if(str=='-'){
         printf("%d",a-b);
     }
-    else if(str='/'){
+    else if(str=='/'){
         printf("%d",a/b);
     }
-    else if(str='*'){
+    else if(str=='*'){
         printf("%d",a*b);
     }
     else{

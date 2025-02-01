@@ -2,7 +2,7 @@
 int main() {
     int N;
     scanf("%d",&N);
-    float price=1.00;
+
     for (int x=1;x<=N;x++){
         char book[100];
         scanf("%s",&book);

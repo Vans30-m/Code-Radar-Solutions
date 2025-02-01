@@ -4,8 +4,8 @@
 
 int main() {
     int a,b;
-    char str;
     scanf("%d %d",&a,&b);
+    char str;
     scanf("%c",&str);
     if(str=='+'){
         printf("%d",a+b);

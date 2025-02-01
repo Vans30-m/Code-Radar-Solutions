@@ -5,7 +5,7 @@ int main() {
 
     for (int x;x<=N;x++){
         char book[100],author[100];
-        scanf("%s %s",&book,&author);
+        scanf("%c %c",&book,&author);
         int price;
         scanf("%d",&price);
         int threshold;

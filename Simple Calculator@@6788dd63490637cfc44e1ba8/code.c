@@ -10,7 +10,7 @@ int main() {
     if(str='+'){
         printf("%d",a+b);
     }
-    else if(str='-'){
+    if(str='-'){
         printf("%d",a-b);
     }
     else if(str='/'){

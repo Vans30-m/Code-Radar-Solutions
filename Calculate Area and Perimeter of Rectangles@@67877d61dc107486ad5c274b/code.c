@@ -10,7 +10,7 @@ int main() {
     scanf("%d %d",&a,&b);
     printf("Rectangle %d: ",x);
     printf("Area = %0.2f, ",Area=a*b);
-    printf("Perimeter = %0.2f",Per=2*(a+b));
+    printf("Perimeter = %0.2f\n",Per=2*(a+b));
    }
     return 0;
 }

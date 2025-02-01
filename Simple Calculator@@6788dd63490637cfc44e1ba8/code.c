@@ -10,14 +10,14 @@ int main() {
     char str;
     scanf("%c",&str);
     switch(str){
-        case'+'{
+        case'+':
             printf("%d",a+b);
             break;
-        }
-        case'-'{
+        
+        case'-':
             printf("%d",a-b);
             break;
-        }
+        
     // }(str='+'){
     //     printf("%d",a+b);
     // }

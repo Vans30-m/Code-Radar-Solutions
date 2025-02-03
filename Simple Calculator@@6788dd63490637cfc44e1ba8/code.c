@@ -6,10 +6,10 @@ int main() {
     double a,b;
     char str;
     scanf("%lf %lf %c",&a,&b,&str);
-    if (str='+'){
+    if (str=='+'){
         printf("%d",a+b);
     }
-    else if(str='-'){
+    else if(str=='-'){
         printf("%d",a-b);
     }
     else if(str=='/'){

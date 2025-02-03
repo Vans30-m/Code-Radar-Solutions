@@ -4,24 +4,29 @@
 
 int main() {
     double a,b;
+    int result;
     char str;
     scanf("%lf %lf %c",&a,&b,&str);
     if (str=='+'){
-        printf("%d",a+b);
+        result=a+b;
+        printf("%d",result);
     }
     else if(str=='-'){
-        printf("%d",a-b);
+        result = a-b;
+        printf("%d",result);
     }
     else if(str=='/'){
         if (b==0){
             printf("error");
         }
         else{
-        printf("%d",a/b);
+            result=a/b;
+            printf("%d",result);
         }
     }
     else if(str=='*'){
-        printf("%d",a*b);
+        result=a*b;
+        printf("%d",result);
     }
     else{
         printf("error");

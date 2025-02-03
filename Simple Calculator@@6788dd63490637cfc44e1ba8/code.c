@@ -9,21 +9,21 @@ int main() {
     char str;
     scanf("%c",&str);
     if (str='+'){
-        printf("%d",a+b);
+        printf("%lf",a+b);
     }
     else if(str='-'){
-        printf("%d",a-b);
+        printf("%lf",a-b);
     }
     else if(str=='/'){
         if (b==0){
             printf("error");
         }
         else{
-        printf("%d",a/b);
+        printf("%lf",a/b);
         }
     }
     else if(str=='*'){
-        printf("%d",a*b);
+        printf("%lf",a*b);
     }
     else{
         printf("error");

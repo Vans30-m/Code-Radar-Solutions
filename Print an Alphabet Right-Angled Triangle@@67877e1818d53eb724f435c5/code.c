@@ -6,9 +6,8 @@ int main() {
 
     for (int x=1;x<=N;x++){
         for (int y=1;y<=x;y++){
-            printf("%c ",c);
+            printf("%c ",'A'+y-1);
         }
-        c++;
         printf("\n");
     }
     return 0;

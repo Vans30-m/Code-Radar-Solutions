@@ -12,13 +12,12 @@ int main() {
     for(int i=0;i<j;i++){
         scanf("%d",&a[i]);
     }
-    for (int i=0;i<j;i++){
-        if (a[i]%x!=0 && a[i]>=2 ){
-            count = count+1;
-            
+    for(x*x<=a[i];x++){
+        if ( a[i]%x==0 ){
+            continue;
             }
         else{
-            continue;
+            count = count+1;
         }
     }
     printf("%d",count);

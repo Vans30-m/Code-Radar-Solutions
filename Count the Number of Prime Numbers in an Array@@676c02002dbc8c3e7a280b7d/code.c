@@ -12,10 +12,7 @@ int main() {
         scanf("%d",&a[i]);
     }
     for (int i=0;i<j;i++){
-        for (int m=2;m*m<=a[i];m++){
-            if (a[j]%m==0){
-                printf("NO");
-            }
+        if (a[i]%2!=0 && a[i]%5!=0){
             count = count+1;
             }
         else{

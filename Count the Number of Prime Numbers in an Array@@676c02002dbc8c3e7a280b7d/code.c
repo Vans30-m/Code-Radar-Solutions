@@ -7,12 +7,12 @@ int main() {
     int j;
     scanf("%d",&j);
     int a[j];
-    int x=2;
+    
     int count;
     for(int i=0;i<j;i++){
         scanf("%d",&a[i]);
     }
-    for(x*x<=a[i];x++){
+    for(int x=2;x*x<=a[i];x++){
         if ( a[i]%x==0 ){
             continue;
             }

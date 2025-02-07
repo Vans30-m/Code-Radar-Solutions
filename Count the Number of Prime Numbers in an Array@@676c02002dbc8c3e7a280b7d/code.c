@@ -14,11 +14,12 @@ int main() {
     for (int i=0;i<j;i++){
         if (a[i]!=2 && a[i]%2!=0){
             count = count+1;
-            printf("%d\n",count);
+            // printf("%d\n",count);
             }
         else{
             continue;
         }
     }
+    printf("%d",count);
     return 0;
 }

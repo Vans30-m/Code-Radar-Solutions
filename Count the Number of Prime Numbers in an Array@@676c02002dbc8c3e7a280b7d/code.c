@@ -13,7 +13,7 @@ int main() {
     }
     for (int i=0;i<j;i++){
         if (a[i]%2!=0 && a[i]%5!=0 && a[i]>=0 ){
-            continue;
+            count = count+1;
             }
         else{
            count = count+1;

@@ -14,7 +14,7 @@ int main() {
     for (int i=0;i<j;i++){
         for (int m=2;m*m<=a[i];m++){
             if (a[j]%m==0){
-                return 0;
+                printf("NO");
             }
             count = count+1;
             }

@@ -12,8 +12,8 @@ int main() {
         scanf("%d",&a[i]);
     }
     for (int i=0;i<j;i++){
-        if (a[i]%2!=0 && a[i]%5!=0 && a[i]>=0 ){
-            count = count+1;
+        if (a[i]%a[i]==0 && a[i]>=0 ){
+            continue;
             }
         else{
            count = count+1;

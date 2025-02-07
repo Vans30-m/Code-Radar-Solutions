@@ -15,7 +15,11 @@ int main() {
         if (a[i] % x == 0 && a[i]>=0){
             count = count+1;
             }
+        else{
+            continue;
         }
+        }
+
     }
     printf("%d",count);
     return 0;

@@ -12,7 +12,7 @@ int main() {
     }
     for (int i=0;i<j;i++){
         if (a[i]!=2 && a[i]%2!=0){
-            printf("%d\n",a[i]);
+            printf("%d\n",i);
             }
         else{
             continue;

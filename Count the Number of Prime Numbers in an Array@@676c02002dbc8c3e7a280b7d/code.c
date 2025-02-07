@@ -12,7 +12,7 @@ int main() {
         scanf("%d",&a[i]);
     }
     for (int i=0;i<j;i++){
-        if (a[i]%a[i-1]!=0 && a[i]>=0 ){
+        if (int x=2;a[i]%x!=0 && a[i]>=0;x++ ){
             count = count+1;
             
             }

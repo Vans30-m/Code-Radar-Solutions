@@ -7,12 +7,13 @@ int main() {
     int j;
     scanf("%d",&j);
     int a[j];
+    int x=2;
     int count;
     for(int i=0;i<j;i++){
         scanf("%d",&a[i]);
     }
     for (int i=0;i<j;i++){
-        if (int x=2;a[i]%x!=0 && a[i]>=0 ){
+        if (a[i]%x!=0 && a[i]>=0 ){
             count = count+1;
             
             }

@@ -5,10 +5,10 @@ int main() {
 
     for (int x=1;x<=N;x++){
         for(int y=1;y<=x;y++){
-            printf(" *");
+            printf(" ");
         }
         for (int z=2;z>=x;z--){
-            printf(" ");
+            printf(" *");
         }
         printf("\n");
     }

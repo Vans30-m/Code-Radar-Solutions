@@ -10,6 +10,7 @@ int main(){
     for (int i=0;i<n;i++){
         if (arr[i]/i>=1.00){
             printf("%d",arr[i]);
+            break;
         }
         else {
             printf("%d",arr[i]);

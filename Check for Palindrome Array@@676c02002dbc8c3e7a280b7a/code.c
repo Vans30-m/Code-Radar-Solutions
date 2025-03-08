@@ -13,7 +13,9 @@ int main(){
         int reversed=(reversed*10)+remainder;
         arr[i] /= 10;
         found=1;
-        printf("YES");
+        if(arr[i]=reversed){
+            printf("YES");
+        }
     }
     if (!found){
         printf("NO");

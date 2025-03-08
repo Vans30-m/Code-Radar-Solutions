@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for (int i=0;i<n;i++){
-        scanf("%f",&arr[i]);
+        scanf("%d",&arr[i]);
     }
     for (int i=0;i<n;i++){
         if (arr[i]/i>=1.00){

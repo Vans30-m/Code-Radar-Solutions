@@ -10,7 +10,7 @@ int main(){
     int found=0;
     for(int i=0;i<n;i++){
         int remainder=arr[i]%10;
-        int reversed[i]=(reversed*10)+remainder;
+        int reversed=(reversed*10)+remainder;
         arr[i] /= 10;
         found=1;
         if(arr[i]==reversed){

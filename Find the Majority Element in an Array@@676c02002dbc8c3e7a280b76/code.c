@@ -3,7 +3,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    float arr[n];
+    int arr[n];
     for (int i=0;i<n;i++){
         scanf("%f",&arr[i]);
     }

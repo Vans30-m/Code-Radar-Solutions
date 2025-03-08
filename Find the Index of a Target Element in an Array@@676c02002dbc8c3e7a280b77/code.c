@@ -7,26 +7,15 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-
-    int target;
-    scanf("%d",&target);
-    if (arr[n]==target){
-            printf("%d",n);
-            
+    int target;scanf("%d",&target);
+    for (int i=0;i<n;i++){
+        if (arr[i]==target){
+            printf("%d",i);
+            break;
         }
         else{
             printf("-1");
-            
+            break;
         }
-    
-    // for (int i=0;i<n;i++){
-    //     if (arr[i]==target){
-    //         printf("%d",i);
-    //         break;
-    //     }
-    //     else{
-    //         printf("-1");
-    //         break;
-    //     }
-    // }
+    }
 }

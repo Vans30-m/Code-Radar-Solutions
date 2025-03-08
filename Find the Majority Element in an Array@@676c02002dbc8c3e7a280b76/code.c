@@ -10,7 +10,7 @@ int main(){
     for (int i=0;i<n;i++){
         if (arr[i]>=(n/2)){
             printf("%d",arr[i]);
-            
+            break;
         }
         else {
             printf("-1");
@@ -18,4 +18,3 @@ int main(){
         }
     }
 }
-// if (arr[i]/i==)

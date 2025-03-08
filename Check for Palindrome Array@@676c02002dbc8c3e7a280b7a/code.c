@@ -11,8 +11,8 @@ int main(){
     }
     int found=0;
     for(int i=0;i<n;i++){
-        int remainder[i]=arr[i]%10;
-        int reversed[i]=(reversed[i]*10)+remainder[i];
+        remainder[i]=arr[i]%10;
+        reversed[i]=(reversed[i]*10)+remainder[i];
         arr[i] /= 10;
         found=1;
         if(arr[i]==reversed[i]){

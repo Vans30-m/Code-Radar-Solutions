@@ -7,10 +7,10 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        if (arr[i]>=i){
+        if (arr[i]>=1000000){
             printf("%d",arr[i]);
         }
-        else{
+        else if (arr[i]<=100000){
             printf("%d",arr[i]);
         }
     }

@@ -13,9 +13,10 @@ int main(){
             printf("%d",i);
             break;
         }
-        else if (arr[i]!=target){
+        
+    }
+    if (arr[i]!=target){
             printf("-1");
             break;
         }
-    }
 }

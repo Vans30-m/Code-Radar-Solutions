@@ -16,6 +16,7 @@ int main(){
             printf("%d",i);
             break;
         }
+        return -1;
     }
-    return -1;
+    
 }

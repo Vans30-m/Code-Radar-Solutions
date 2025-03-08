@@ -7,11 +7,8 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        if (arr[i]>=0){
-            printf("%d",arr[i]);
-        }
-        else if (arr[i]<=0){
-            printf("%d",arr[i]);
-        }
+        int min=arr[i]%i>=1;
+        int max=arr[i]%i<=1;
+        printf("%d %d",min,max);
     }
 }

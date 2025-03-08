@@ -3,16 +3,16 @@
 int main(){
         int n;
     scanf("%d",&n);
-    int arr[n];
+    float arr[n];
     for (int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+        scanf("%f",&arr[i]);
     }
     for (int i=0;i<n;i++){
-        if (arr[i]/i>=1){
-            printf("%d",arr[i]);
+        if (arr[i]/i>=1.00){
+            printf("%f",arr[i]);
         }
         else {
-            printf("%d",arr[i]);
+            printf("%f",arr[i]);
         }
     }
 }

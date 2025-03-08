@@ -13,7 +13,7 @@ int main(){
         int reversed[i]=(reversed[i]*10)+remainder[i];
         arr[i] /= 10;
         found=1;
-        if(arr[i]==reversed){
+        if(arr[i]==reversed[i]){
             printf("YES");
         }
     }

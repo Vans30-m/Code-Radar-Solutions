@@ -9,8 +9,8 @@ int main(){
     }
     int found=0;
     for(int i=0;i<n;i++){
-        int reversed=(reversed*10)+remainder;
         int remainder=arr[i]%10;
+        int reversed=(reversed*10)+remainder;
         arr[i] /= 10;
         found=1;
         printf("YES");

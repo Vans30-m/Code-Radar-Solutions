@@ -4,18 +4,16 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    int remainder[n];
-    int reversed[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     int found=0;
     for(int i=0;i<n;i++){
-        remainder[i]=arr[i]%10;
-        reversed[i]=(reversed[i]*10)+remainder[i];
+        int remainder=arr[i]%10;
+        int reversed[i]=(reversed*10)+remainder;
         arr[i] /= 10;
         found=1;
-        if(arr[i]==reversed[i]){
+        if(arr[i]==reversed){
             printf("YES");
         }
     }

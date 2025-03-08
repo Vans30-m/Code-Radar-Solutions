@@ -11,7 +11,7 @@ int main(){
     int target;
     scanf("%d",&target);
     if (arr[n]==target){
-            printf("%d",i);
+            printf("%d",n);
             break;
         }
         else{

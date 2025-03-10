@@ -14,9 +14,12 @@ int main() {
         for (int i = 0; i < (2 * j) + 1; i++) {
             printf("*");
         }
-
-        // Move to the next line
         printf("\n");
+
+        for(int i=n+2;i<n-j-1;i--){
+            printf(" ");
+        }
+        
     }
 
     return 0;

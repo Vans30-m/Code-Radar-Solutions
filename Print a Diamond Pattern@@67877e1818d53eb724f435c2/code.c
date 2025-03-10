@@ -1,17 +1,23 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     int n;
-    scanf("%d",&n);
-    for(int j = 0;j<n;j++){
-        for (int i =0;i<n-i-1;i++){
+    scanf("%d", &n);
+
+    for (int j = 0; j < n; j++) {
+        // Print leading spaces
+        for (int i = 0; i < n - j - 1; i++) {
             printf(" ");
         }
-        for (int i =0;i<(2*i)+1;i++){
+        
+        // Print stars
+        for (int i = 0; i < (2 * j) + 1; i++) {
             printf("*");
         }
-        for(int i=(n+2);i<n-i-1;i--){
-            printf(" ");
-        }
+
+        // Move to the next line
+        printf("\n");
     }
+
+    return 0;
 }

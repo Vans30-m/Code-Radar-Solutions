@@ -6,12 +6,10 @@ int main(){
         printf("*");
     }
     for(int i=0;i<n-1;i++){
-        if(i%2==0){
-            printf(" \n");
-        }
-        else{
+        for(int i=0;i=(n)&&i=(n-(n-1));i++){
             printf("*");
         }
+        printf(" \n");
     }
     for(int i=0;i<n;i++){
         printf("*");

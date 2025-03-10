@@ -6,7 +6,12 @@ int main(){
         printf("*");
     }
     for(int i=0;i<n-1;i++){
-        printf(" \n");
+        if(i%2==0){
+            printf(" \n");
+        }
+        else{
+            printf("*");
+        }
     }
     for(int i=0;i<n;i++){
         printf("*");

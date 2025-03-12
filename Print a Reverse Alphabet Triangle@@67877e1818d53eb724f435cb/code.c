@@ -5,10 +5,10 @@ void print1(int n){
     char ch1='A';
     for(int i=0;i<n;i++){
         for(int j=0;j<n-i;j++){
-            if(i/2==0){
+            if(j/2==0){
                 printf("%c ",ch++);
             }
-            else if(i/3==0 || i==1){
+            else if(j/3==0 || j==1){
                 printf("%c ",ch1++);
             }
         }

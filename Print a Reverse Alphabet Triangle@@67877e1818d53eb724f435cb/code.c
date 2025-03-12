@@ -8,7 +8,7 @@ void print1(int n){
             if(i/2==0){
                 printf("%c ",ch++);
             }
-            else{
+            else if(i/3==0 || i==1){
                 printf("%c ",ch1++);
             }
         }

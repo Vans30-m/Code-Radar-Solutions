@@ -4,7 +4,12 @@ void print1(int n){
     char ch='A';
     for(int i=0;i<n;i++){
         for(int j=0;j<n-i;j++){
-            printf("%c ",ch++);
+            if(i%2==0){
+                printf("%c ",ch++);
+            }
+            else{
+                printf("%c ",ch++);
+            }
         }
         printf("\n");
     }

@@ -11,6 +11,7 @@ void print1(int n){
         for(int j=0;j<=n;j++){
             printf(" ");
         }
+        printf("\n");
     }
 }
 int main(){

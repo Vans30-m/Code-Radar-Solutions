@@ -10,6 +10,9 @@ int main() {
         for (int z=1;z<=N+1;z++){
             printf("*");
         }
+        for(int y=N-1;y>=x;y--){
+            printf(" ");
+        }
         printf("\n");
     }
     return 0;

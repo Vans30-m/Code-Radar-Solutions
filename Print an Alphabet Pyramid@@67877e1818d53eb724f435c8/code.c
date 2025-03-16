@@ -4,7 +4,7 @@ void print1(int n){
     char c='A';
     for(int i=1;i<=n;i++){
         for(int x=1;x<=i;x++){
-            printf("%c ",c++);
+            
         }
         printf("%c ",c++);
         printf("\n");

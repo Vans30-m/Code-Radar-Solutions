@@ -7,9 +7,10 @@ void print1(int n){
             printf(" ");
         }
         for(int z=1;z<=i;z++){
-            printf("%d\n",x);
+            printf("%d",x);
         }
     }
+    printf("\n");
 }
 int main(){
     int n;

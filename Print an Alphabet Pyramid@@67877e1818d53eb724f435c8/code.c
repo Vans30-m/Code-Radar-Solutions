@@ -7,6 +7,7 @@ void print1(int n){
             printf("%c ",c);
             
         }
+        char c=='A';
         c++;
         printf("\n");
     }

@@ -1,9 +1,20 @@
-// Your code here...
-#include<stdio.h>
-int main(){
-    int a,b,temp;scanf("%d%d",&a,&b);
-    a=a+b;
-    b=a-b;
-    a=a-b;
-    printf("%d %d",&a,&b);
+#include <stdio.h>
+
+int main() {
+    int a, b, temp;
+
+    // Input two numbers
+    printf("Enter two numbers:\n");
+    scanf("%d %d", &a, &b);
+
+
+
+    // Swapping logic
+    temp = a;
+    a = b;
+    b = temp;
+
+    printf("After swapping: a = %d, b = %d\n", a, b);
+
+    return 0;
 }

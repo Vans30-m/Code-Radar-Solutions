@@ -9,6 +9,9 @@ void print1(int n){
         for(int z=1;z<=i;z++){
             printf("%d",x);
         }
+        for(int a=1;a<=n-i;a++){
+            printf(" ");
+        }
         printf("\n");
     }
     

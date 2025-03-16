@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
     int a,b,temp;scanf("%d%d",&a,&b);
-    temp==b;b==a;a==b;
+    a==b;temp==a;a==temp;
     printf("%d %d",a,b);
 }

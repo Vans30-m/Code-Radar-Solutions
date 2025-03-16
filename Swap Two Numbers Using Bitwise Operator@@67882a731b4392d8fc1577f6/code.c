@@ -3,7 +3,6 @@
 int main(){
     int a,b,temp;scanf("%d%d",&a,&b);
     a==b;
-    b==temp;
-    temp==a;
+    b==a;
     printf("%d %d",&a,&b);
 }

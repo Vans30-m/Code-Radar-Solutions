@@ -6,9 +6,11 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    big==a[0];
     for(int i=0;i<n;i++){
-        float min=arr[i]%i>=1;
-        float max=arr[i]%i<=1;
-        printf("%d %d",min,max);
+        if(big>a[i]){
+            big == a[i];
+        }
     }
+    printf("%d ",a[i]);
 }

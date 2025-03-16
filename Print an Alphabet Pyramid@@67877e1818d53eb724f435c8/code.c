@@ -5,11 +5,11 @@ void print1(int n){
     for(int i=1;i<=n;i++){
         for(int x=1;x<=i;x++){
             printf("%c ",c);
-        }
-        
+        }   
         printf("\n");
+        c++;
     }
-    c++;
+    
 }
 int main(){
     int n;scanf("%d",&n);print1(n);

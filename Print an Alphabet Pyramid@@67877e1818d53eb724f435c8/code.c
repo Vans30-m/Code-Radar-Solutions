@@ -5,9 +5,8 @@ void print1(int n){
     for(int i=1;i<=n;i++){
         for(int x=1;x<=i;x++){
             printf("%c ",c);
-            
         }
-        char c=='A';
+        char c='A';
         c++;
         printf("\n");
     }

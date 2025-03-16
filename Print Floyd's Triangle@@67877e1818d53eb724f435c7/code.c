@@ -9,3 +9,8 @@ void print(int n){
         printf("\n");
     }
 }
+int main(){
+    int n;
+    scanf("%d",&n);
+    printf(n);
+}

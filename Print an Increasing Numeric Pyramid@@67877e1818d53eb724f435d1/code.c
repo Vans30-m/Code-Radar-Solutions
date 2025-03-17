@@ -5,7 +5,7 @@ void print1(int n){
         for(int j=1;j<=n-i;j++){
             printf(" ");
         }
-        for(int z=1;z<=2*i-2;z++){
+        for(int z=1;z<=2*i;z++){
             printf("%d",z);
         }
         for(int a=1;a<=n-i;a++){

@@ -6,12 +6,13 @@ void print1(int n){
             printf(" ");
         }
         for(int z=1;z<=2*i+1;z++){
-            printf("%d",z-1);
+            printf("%d",z);
         }
         for(int a=1;a<=n-i;a++){
             printf(" ");
         }
         printf("\n");
+        z=-1;
     }
     
 }

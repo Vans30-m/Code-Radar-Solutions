@@ -12,3 +12,6 @@ void print1(int n){
         printf("\n");
     }
 }
+int main(){
+    int n;scanf("%d",&n);print1(n);
+}

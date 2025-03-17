@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 void print1(int n){
-    for(int i=0;i<n;i++){
+    for(int i=1;i<=n;i++){
         for(int j=1;j<=n-i;j++){
             printf(" ");
         }

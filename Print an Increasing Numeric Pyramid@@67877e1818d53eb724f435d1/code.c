@@ -12,7 +12,7 @@ void print1(int n){
             printf(" ");
         }
         printf("\n");
-        z=-1;
+        int z=-1;
     }
     
 }

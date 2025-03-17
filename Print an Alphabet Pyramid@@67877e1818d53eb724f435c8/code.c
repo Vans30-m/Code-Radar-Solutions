@@ -3,7 +3,7 @@
 void print1(int n){
     char x='A';
     for(int i=1;i<=n;i++){
-        for(int x='A';x<=i;x++){
+        for(char x='A';x<=i;x++){
             printf("%c ",x);
         }   
         printf("\n");

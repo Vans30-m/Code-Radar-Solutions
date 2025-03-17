@@ -1,12 +1,12 @@
 // Your code here...
 #include<stdio.h>
 void print1(int n){
-    for(int i=1;i<=n;i++){
+    for(int i=0;i<n;i++){
         for(int j=1;j<=n-i;j++){
             printf(" ");
         }
         for(int z=1;z<=2*i+1;z++){
-            printf("%d",i);
+            printf("%d",z-1);
         }
         for(int a=1;a<=n-i;a++){
             printf(" ");

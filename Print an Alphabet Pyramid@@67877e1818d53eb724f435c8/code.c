@@ -1,13 +1,12 @@
 // Your code here...
 #include<stdio.h>
 void print1(int n){
-    char c='A';
+    char x='A';
     for(int i=1;i<=n;i++){
         for(int x=1;x<=i;x++){
             printf("%c ",x);
         }   
         printf("\n");
-        c++;
     }
     
 }

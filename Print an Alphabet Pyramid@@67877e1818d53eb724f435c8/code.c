@@ -7,7 +7,7 @@ void print1(int n){
             printf("%c ",y);
         }   
         printf("\n");
-        y -= 1;
+        y =- 1;
     }
     
 }

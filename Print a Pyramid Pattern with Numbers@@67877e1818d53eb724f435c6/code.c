@@ -6,7 +6,7 @@ void print1(int n){
             printf(" ");
         }
         for(int j=0;j<(2*i+1);j++){
-            printf("*");
+            printf("%d",j);
         }
         printf("\n");
     }
